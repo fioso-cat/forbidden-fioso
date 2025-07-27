@@ -1,4 +1,4 @@
-# Forbidden-Fioso
+# ForbiddenFioso
 
 Welcome to **ForbiddenFioso**
 This package is developed by **Forbidden** & **Fioso**.
@@ -15,9 +15,16 @@ npm i git+https://github.com/fioso-cat/forbidden-fioso.git
 
 ```js
 const store = await Fioso.store({
-    type: "GAG", // or "BLOXFRUIT"
-    apitype: "1" // or "2"
+    type: "", //"GAG", "BLOXFRUIT", "WEATHER"
+    apitype: "" 
+    
 });
+/*
+GAG: "GROWGARDENGG", "GAMERBERGS"
+BLOXFRUIT: "FANDOM", "GAMERBERGS"
+WEATHER: "GROWGARDENGG"
+*/
+
 ```
 
 Returns a JSON structured response:
